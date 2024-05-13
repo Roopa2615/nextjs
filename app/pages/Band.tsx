@@ -13,7 +13,7 @@ const Band = ({ color, name, delay } : any) => {
   }, [delay]);
 
   return (
-    <h1 className={`bg-${color}-200 justify-center m-4 w-1/2 text-xl font-normal text-center text-purple-600 capitalize truncate align-middle rounded-lg border-2 border-${color}-600 ${show ? 'opacity-100 animate-waving' : 'opacity-0'}`}>
+    <h1 className={`bg-purple-100 justify-center m-4 w-1/2 text-xl font-normal text-center text-purple-800 capitalize truncate align-middle rounded-lg border-2 border-purple-400 ${show ? 'opacity-100 animate-waving' : 'opacity-0'}`}>
       {name} Band 
     </h1>
   );
